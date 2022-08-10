@@ -4,8 +4,6 @@ import traceback
 from datetime import datetime
 
 import numpy as np
-import torch as T
-import pandas as pd 
 
 from config import parser
 from eval_metrics import recall_at_k
